@@ -3436,12 +3436,12 @@
       },
       "encoding": "utf-8",
       "mediatype": "text/csv",
-      "name": "egreso2020ene_feb2__2020.csv",
+      "name":  "egreso2019ene_dic__2018.csv",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/egreso2020ene_feb2__2020.csv",
+      "path": "data/egreso2019ene_dic__2018.csv",
       "hashcopy": "970c781c1d04b866afc1f6e9b48d6a58efd3f9de8b9c9fb68dbe950fd1e8b420",
       "sample": [
         [
