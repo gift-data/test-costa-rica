@@ -1,0 +1,1 @@
+data/egreso2019ene_dic__2019.csv filter=lfs diff=lfs merge=lfs -text
