@@ -1,5 +1,5 @@
 {
-  "name": "test-costa-rica",
+  "name": "costa-rica-presupuesto-egresos",
   "id": "R_kgDOGXeikQ",
   "encoding": "utf_8",
   "format": "csv",
@@ -14,10 +14,10 @@
             "title": "ejercicio",
             "name": "ejercicio",
             "slug": "ejercicio",
-            "type": "string",
+            "type": "integer",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
             "options": []
           },
           {
@@ -26,8 +26,8 @@
             "slug": "mes",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:label",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -36,8 +36,8 @@
             "slug": "titulo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -46,8 +46,8 @@
             "slug": "titulo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -56,8 +56,8 @@
             "slug": "programa_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -66,8 +66,8 @@
             "slug": "programa_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -76,8 +76,8 @@
             "slug": "subprograma_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level3:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -86,8 +86,8 @@
             "slug": "subprograma_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level3:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -96,8 +96,8 @@
             "slug": "cog_partida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -106,8 +106,8 @@
             "slug": "cog_partida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -116,8 +116,8 @@
             "slug": "cog_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -126,8 +126,8 @@
             "slug": "cog_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -136,8 +136,8 @@
             "slug": "cog_subpartida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -146,8 +146,8 @@
             "slug": "cog_subpartida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -156,8 +156,8 @@
             "slug": "ce_partida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -166,8 +166,8 @@
             "slug": "ce_partida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -176,8 +176,8 @@
             "slug": "ce_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -186,8 +186,8 @@
             "slug": "ce_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:gfsm:level2:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -196,8 +196,8 @@
             "slug": "ce_subpartida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -206,8 +206,8 @@
             "slug": "ce_subpartida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -216,8 +216,8 @@
             "slug": "ce_renglon_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -226,8 +226,8 @@
             "slug": "ce_renglon_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level4:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -236,8 +236,8 @@
             "slug": "cf_clase_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -246,8 +246,8 @@
             "slug": "cf_clase_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -256,8 +256,8 @@
             "slug": "cf_subclase_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -266,8 +266,8 @@
             "slug": "cf_subclase_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -276,8 +276,8 @@
             "slug": "cf_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level3:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -286,8 +286,8 @@
             "slug": "cf_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level3:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -296,8 +296,8 @@
             "slug": "cf_subgrupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level4:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -306,8 +306,8 @@
             "slug": "cf_subgrupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level4:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -316,8 +316,8 @@
             "slug": "ff_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "fin-source:generic:code",
+            "conceptType": "fin-source",
             "options": []
           },
           {
@@ -326,8 +326,8 @@
             "slug": "ff_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "fin-source:generic:label",
+            "conceptType": "fin-source",
             "options": []
           },
           {
@@ -336,8 +336,8 @@
             "slug": "ff_clase1",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -346,89 +346,577 @@
             "slug": "ff_clase2",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
             "title": "pi_monto",
             "name": "pi_monto",
             "slug": "pi_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "pp_monto",
             "name": "pp_monto",
             "slug": "pp_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "li_monto",
             "name": "li_monto",
             "slug": "li_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "so_monto",
             "name": "so_monto",
             "slug": "so_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "co_monto",
             "name": "co_monto",
             "slug": "co_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "rm_monto",
             "name": "rm_monto",
             "slug": "rm_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "de_monto",
             "name": "de_monto",
             "slug": "de_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "pa_monto",
             "name": "pa_monto",
             "slug": "pa_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           }
         ],
         "missingValues": [
@@ -1768,84 +2256,35 @@
       ],
       "model": {
         "dimensions": {
-          "activity": {
-            "dimensionType": "activity",
+          "date": {
+            "dimensionType": "datetime",
             "primaryKey": [
-              "ejercicio",
-              "titulo_codigo",
-              "titulo_descripcion",
-              "programa_codigo",
-              "programa_descripcion",
-              "subprograma_codigo",
-              "subprograma_descripcion",
+              "ejercicio"
+            ],
+            "attributes": {
+              "ejercicio": {
+                "source": "ejercicio",
+                "title": "ejercicio"
+              }
+            }
+          },
+          "unknown": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "mes",
               "cog_partida_codigo",
               "cog_partida_descripcion",
               "cog_grupo_codigo",
               "cog_grupo_descripcion",
               "cog_subpartida_codigo",
               "cog_subpartida_descripcion",
-              "ce_partida_codigo",
-              "ce_partida_descripcion",
-              "ce_grupo_codigo",
-              "ce_grupo_descripcion",
-              "ce_subpartida_codigo",
-              "ce_subpartida_descripcion",
-              "ce_renglon_codigo",
-              "ce_renglon_descripcion",
-              "cf_clase_codigo",
-              "cf_clase_descripcion",
-              "cf_subclase_codigo",
-              "cf_subclase_descripcion",
-              "cf_grupo_codigo",
-              "cf_grupo_descripcion",
-              "cf_subgrupo_codigo",
-              "cf_subgrupo_descripcion",
-              "ff_codigo",
-              "ff_descripcion",
               "ff_clase1",
-              "ff_clase2",
-              "pi_monto",
-              "pp_monto",
-              "li_monto",
-              "so_monto",
-              "co_monto",
-              "rm_monto",
-              "de_monto",
-              "pa_monto"
+              "ff_clase2"
             ],
             "attributes": {
-              "ejercicio": {
-                "source": "ejercicio",
-                "title": "ejercicio"
-              },
               "mes": {
                 "source": "mes",
-                "title": "mes",
-                "labelfor": "ejercicio"
-              },
-              "titulo_codigo": {
-                "source": "titulo_codigo",
-                "title": "titulo_codigo"
-              },
-              "titulo_descripcion": {
-                "source": "titulo_descripcion",
-                "title": "titulo_descripcion"
-              },
-              "programa_codigo": {
-                "source": "programa_codigo",
-                "title": "programa_codigo"
-              },
-              "programa_descripcion": {
-                "source": "programa_descripcion",
-                "title": "programa_descripcion"
-              },
-              "subprograma_codigo": {
-                "source": "subprograma_codigo",
-                "title": "subprograma_codigo"
-              },
-              "subprograma_descripcion": {
-                "source": "subprograma_descripcion",
-                "title": "subprograma_descripcion"
+                "title": "mes"
               },
               "cog_partida_codigo": {
                 "source": "cog_partida_codigo",
@@ -1871,78 +2310,6 @@
                 "source": "cog_subpartida_descripcion",
                 "title": "cog_subpartida_descripcion"
               },
-              "ce_partida_codigo": {
-                "source": "ce_partida_codigo",
-                "title": "ce_partida_codigo"
-              },
-              "ce_partida_descripcion": {
-                "source": "ce_partida_descripcion",
-                "title": "ce_partida_descripcion"
-              },
-              "ce_grupo_codigo": {
-                "source": "ce_grupo_codigo",
-                "title": "ce_grupo_codigo"
-              },
-              "ce_grupo_descripcion": {
-                "source": "ce_grupo_descripcion",
-                "title": "ce_grupo_descripcion"
-              },
-              "ce_subpartida_codigo": {
-                "source": "ce_subpartida_codigo",
-                "title": "ce_subpartida_codigo"
-              },
-              "ce_subpartida_descripcion": {
-                "source": "ce_subpartida_descripcion",
-                "title": "ce_subpartida_descripcion"
-              },
-              "ce_renglon_codigo": {
-                "source": "ce_renglon_codigo",
-                "title": "ce_renglon_codigo"
-              },
-              "ce_renglon_descripcion": {
-                "source": "ce_renglon_descripcion",
-                "title": "ce_renglon_descripcion"
-              },
-              "cf_clase_codigo": {
-                "source": "cf_clase_codigo",
-                "title": "cf_clase_codigo"
-              },
-              "cf_clase_descripcion": {
-                "source": "cf_clase_descripcion",
-                "title": "cf_clase_descripcion"
-              },
-              "cf_subclase_codigo": {
-                "source": "cf_subclase_codigo",
-                "title": "cf_subclase_codigo"
-              },
-              "cf_subclase_descripcion": {
-                "source": "cf_subclase_descripcion",
-                "title": "cf_subclase_descripcion"
-              },
-              "cf_grupo_codigo": {
-                "source": "cf_grupo_codigo",
-                "title": "cf_grupo_codigo"
-              },
-              "cf_grupo_descripcion": {
-                "source": "cf_grupo_descripcion",
-                "title": "cf_grupo_descripcion"
-              },
-              "cf_subgrupo_codigo": {
-                "source": "cf_subgrupo_codigo",
-                "title": "cf_subgrupo_codigo"
-              },
-              "cf_subgrupo_descripcion": {
-                "source": "cf_subgrupo_descripcion",
-                "title": "cf_subgrupo_descripcion"
-              },
-              "ff_codigo": {
-                "source": "ff_codigo",
-                "title": "ff_codigo"
-              },
-              "ff_descripcion": {
-                "source": "ff_descripcion",
-                "title": "ff_descripcion"
-              },
               "ff_clase1": {
                 "source": "ff_clase1",
                 "title": "ff_clase1"
@@ -1950,43 +2317,202 @@
               "ff_clase2": {
                 "source": "ff_clase2",
                 "title": "ff_clase2"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "titulo_codigo",
+              "programa_codigo",
+              "subprograma_codigo"
+            ],
+            "attributes": {
+              "titulo_codigo": {
+                "source": "titulo_codigo",
+                "title": "titulo_codigo"
               },
-              "pi_monto": {
-                "source": "pi_monto",
-                "title": "pi_monto"
+              "titulo_descripcion": {
+                "source": "titulo_descripcion",
+                "title": "titulo_descripcion",
+                "labelfor": "titulo_codigo"
               },
-              "pp_monto": {
-                "source": "pp_monto",
-                "title": "pp_monto"
+              "programa_codigo": {
+                "source": "programa_codigo",
+                "title": "programa_codigo",
+                "parent": "titulo_codigo"
               },
-              "li_monto": {
-                "source": "li_monto",
-                "title": "li_monto"
+              "programa_descripcion": {
+                "source": "programa_descripcion",
+                "title": "programa_descripcion",
+                "labelfor": "programa_codigo"
               },
-              "so_monto": {
-                "source": "so_monto",
-                "title": "so_monto"
+              "subprograma_codigo": {
+                "source": "subprograma_codigo",
+                "title": "subprograma_codigo",
+                "parent": "programa_codigo"
               },
-              "co_monto": {
-                "source": "co_monto",
-                "title": "co_monto"
+              "subprograma_descripcion": {
+                "source": "subprograma_descripcion",
+                "title": "subprograma_descripcion",
+                "labelfor": "subprograma_codigo"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ce_partida_codigo",
+              "ce_grupo_codigo",
+              "ce_subpartida_codigo",
+              "ce_renglon_codigo"
+            ],
+            "attributes": {
+              "ce_partida_codigo": {
+                "source": "ce_partida_codigo",
+                "title": "ce_partida_codigo"
               },
-              "rm_monto": {
-                "source": "rm_monto",
-                "title": "rm_monto"
+              "ce_partida_descripcion": {
+                "source": "ce_partida_descripcion",
+                "title": "ce_partida_descripcion",
+                "labelfor": "ce_partida_codigo"
               },
-              "de_monto": {
-                "source": "de_monto",
-                "title": "de_monto"
+              "ce_grupo_codigo": {
+                "source": "ce_grupo_codigo",
+                "title": "ce_grupo_codigo",
+                "parent": "ce_partida_codigo"
               },
-              "pa_monto": {
-                "source": "pa_monto",
-                "title": "pa_monto"
+              "ce_grupo_descripcion": {
+                "source": "ce_grupo_descripcion",
+                "title": "ce_grupo_descripcion"
+              },
+              "ce_subpartida_codigo": {
+                "source": "ce_subpartida_codigo",
+                "title": "ce_subpartida_codigo",
+                "parent": "ce_grupo_codigo"
+              },
+              "ce_subpartida_descripcion": {
+                "source": "ce_subpartida_descripcion",
+                "title": "ce_subpartida_descripcion",
+                "labelfor": "ce_subpartida_codigo"
+              },
+              "ce_renglon_codigo": {
+                "source": "ce_renglon_codigo",
+                "title": "ce_renglon_codigo",
+                "parent": "ce_subpartida_codigo"
+              },
+              "ce_renglon_descripcion": {
+                "source": "ce_renglon_descripcion",
+                "title": "ce_renglon_descripcion",
+                "labelfor": "ce_renglon_codigo"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "cf_clase_codigo",
+              "cf_subclase_codigo",
+              "cf_grupo_codigo",
+              "cf_subgrupo_codigo"
+            ],
+            "attributes": {
+              "cf_clase_codigo": {
+                "source": "cf_clase_codigo",
+                "title": "cf_clase_codigo"
+              },
+              "cf_clase_descripcion": {
+                "source": "cf_clase_descripcion",
+                "title": "cf_clase_descripcion",
+                "labelfor": "cf_clase_codigo"
+              },
+              "cf_subclase_codigo": {
+                "source": "cf_subclase_codigo",
+                "title": "cf_subclase_codigo",
+                "parent": "cf_clase_codigo"
+              },
+              "cf_subclase_descripcion": {
+                "source": "cf_subclase_descripcion",
+                "title": "cf_subclase_descripcion",
+                "labelfor": "cf_subclase_codigo"
+              },
+              "cf_grupo_codigo": {
+                "source": "cf_grupo_codigo",
+                "title": "cf_grupo_codigo",
+                "parent": "cf_subclase_codigo"
+              },
+              "cf_grupo_descripcion": {
+                "source": "cf_grupo_descripcion",
+                "title": "cf_grupo_descripcion",
+                "labelfor": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_codigo": {
+                "source": "cf_subgrupo_codigo",
+                "title": "cf_subgrupo_codigo",
+                "parent": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_descripcion": {
+                "source": "cf_subgrupo_descripcion",
+                "title": "cf_subgrupo_descripcion",
+                "labelfor": "cf_subgrupo_codigo"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ff_codigo"
+            ],
+            "attributes": {
+              "ff_codigo": {
+                "source": "ff_codigo",
+                "title": "ff_codigo"
+              },
+              "ff_descripcion": {
+                "source": "ff_descripcion",
+                "title": "ff_descripcion",
+                "labelfor": "ff_codigo"
               }
             }
           }
         },
-        "measures": {}
+        "measures": {
+          "pi_monto": {
+            "source": "pi_monto",
+            "title": "pi_monto"
+          },
+          "pp_monto": {
+            "source": "pp_monto",
+            "title": "pp_monto"
+          },
+          "li_monto": {
+            "source": "li_monto",
+            "title": "li_monto"
+          },
+          "so_monto": {
+            "source": "so_monto",
+            "title": "so_monto"
+          },
+          "co_monto": {
+            "source": "co_monto",
+            "title": "co_monto"
+          },
+          "rm_monto": {
+            "source": "rm_monto",
+            "title": "rm_monto"
+          },
+          "de_monto": {
+            "source": "de_monto",
+            "title": "de_monto"
+          },
+          "pa_monto": {
+            "source": "pa_monto",
+            "title": "pa_monto"
+          }
+        }
       }
     },
     {
@@ -1999,10 +2525,10 @@
             "title": "ejercicio",
             "name": "ejercicio",
             "slug": "ejercicio",
-            "type": "string",
+            "type": "integer",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
             "options": []
           },
           {
@@ -2011,8 +2537,8 @@
             "slug": "mes",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:label",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2021,8 +2547,8 @@
             "slug": "titulo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2031,8 +2557,8 @@
             "slug": "titulo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2041,8 +2567,8 @@
             "slug": "programa_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2051,8 +2577,8 @@
             "slug": "programa_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2061,8 +2587,8 @@
             "slug": "subprograma_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level3:code",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2071,8 +2597,8 @@
             "slug": "subprograma_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "administrative-classification:generic:level3:label",
+            "conceptType": "administrative-classification",
             "options": []
           },
           {
@@ -2081,8 +2607,8 @@
             "slug": "cog_partida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2091,8 +2617,8 @@
             "slug": "cog_partida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2101,8 +2627,8 @@
             "slug": "cog_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2111,8 +2637,8 @@
             "slug": "cog_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2121,8 +2647,8 @@
             "slug": "cog_subpartida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2131,8 +2657,8 @@
             "slug": "cog_subpartida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2141,8 +2667,8 @@
             "slug": "ce_partida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2151,8 +2677,8 @@
             "slug": "ce_partida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2161,8 +2687,8 @@
             "slug": "ce_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2171,8 +2697,8 @@
             "slug": "ce_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:gfsm:level2:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2181,8 +2707,8 @@
             "slug": "ce_subpartida_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2191,8 +2717,8 @@
             "slug": "ce_subpartida_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2201,8 +2727,8 @@
             "slug": "ce_renglon_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2211,8 +2737,8 @@
             "slug": "ce_renglon_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "economic-classification:generic:level4:label",
+            "conceptType": "economic-classification",
             "options": []
           },
           {
@@ -2221,8 +2747,8 @@
             "slug": "cf_clase_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2231,8 +2757,8 @@
             "slug": "cf_clase_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2241,8 +2767,8 @@
             "slug": "cf_subclase_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2251,8 +2777,8 @@
             "slug": "cf_subclase_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2261,8 +2787,8 @@
             "slug": "cf_grupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level3:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2271,8 +2797,8 @@
             "slug": "cf_grupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level3:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2281,8 +2807,8 @@
             "slug": "cf_subgrupo_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level4:code",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2291,8 +2817,8 @@
             "slug": "cf_subgrupo_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "functional-classification:generic:level4:label",
+            "conceptType": "functional-classification",
             "options": []
           },
           {
@@ -2301,8 +2827,8 @@
             "slug": "ff_codigo",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "fin-source:generic:code",
+            "conceptType": "fin-source",
             "options": []
           },
           {
@@ -2311,8 +2837,8 @@
             "slug": "ff_descripcion",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "fin-source:generic:label",
+            "conceptType": "fin-source",
             "options": []
           },
           {
@@ -2321,8 +2847,8 @@
             "slug": "ff_clase1",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
@@ -2331,89 +2857,577 @@
             "slug": "ff_clase2",
             "type": "string",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
             "options": []
           },
           {
             "title": "pi_monto",
             "name": "pi_monto",
             "slug": "pi_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "pp_monto",
             "name": "pp_monto",
             "slug": "pp_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "li_monto",
             "name": "li_monto",
             "slug": "li_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "so_monto",
             "name": "so_monto",
             "slug": "so_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "co_monto",
             "name": "co_monto",
             "slug": "co_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "rm_monto",
             "name": "rm_monto",
             "slug": "rm_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "de_monto",
             "name": "de_monto",
             "slug": "de_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           },
           {
             "title": "pa_monto",
             "name": "pa_monto",
             "slug": "pa_monto",
-            "type": "string",
+            "type": "number",
             "format": "default",
-            "columnType": "activity:generic:contract:code",
-            "conceptType": "activity",
-            "options": []
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
           }
         ],
         "missingValues": [
@@ -2422,12 +3436,12 @@
       },
       "encoding": "utf-8",
       "mediatype": "text/csv",
-      "name": "egreso2019ene_dic__2018.csv",
+      "name": "egreso2020ene_feb2__2020.csv",
       "dialect": {
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/egreso2019ene_dic__2018.csv",
+      "path": "data/egreso2020ene_feb2__2020.csv",
       "hashcopy": "970c781c1d04b866afc1f6e9b48d6a58efd3f9de8b9c9fb68dbe950fd1e8b420",
       "sample": [
         [
@@ -3753,84 +4767,35 @@
       ],
       "model": {
         "dimensions": {
-          "activity": {
-            "dimensionType": "activity",
+          "date": {
+            "dimensionType": "datetime",
             "primaryKey": [
-              "ejercicio",
-              "titulo_codigo",
-              "titulo_descripcion",
-              "programa_codigo",
-              "programa_descripcion",
-              "subprograma_codigo",
-              "subprograma_descripcion",
+              "ejercicio"
+            ],
+            "attributes": {
+              "ejercicio": {
+                "source": "ejercicio",
+                "title": "ejercicio"
+              }
+            }
+          },
+          "unknown": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "mes",
               "cog_partida_codigo",
               "cog_partida_descripcion",
               "cog_grupo_codigo",
               "cog_grupo_descripcion",
               "cog_subpartida_codigo",
               "cog_subpartida_descripcion",
-              "ce_partida_codigo",
-              "ce_partida_descripcion",
-              "ce_grupo_codigo",
-              "ce_grupo_descripcion",
-              "ce_subpartida_codigo",
-              "ce_subpartida_descripcion",
-              "ce_renglon_codigo",
-              "ce_renglon_descripcion",
-              "cf_clase_codigo",
-              "cf_clase_descripcion",
-              "cf_subclase_codigo",
-              "cf_subclase_descripcion",
-              "cf_grupo_codigo",
-              "cf_grupo_descripcion",
-              "cf_subgrupo_codigo",
-              "cf_subgrupo_descripcion",
-              "ff_codigo",
-              "ff_descripcion",
               "ff_clase1",
-              "ff_clase2",
-              "pi_monto",
-              "pp_monto",
-              "li_monto",
-              "so_monto",
-              "co_monto",
-              "rm_monto",
-              "de_monto",
-              "pa_monto"
+              "ff_clase2"
             ],
             "attributes": {
-              "ejercicio": {
-                "source": "ejercicio",
-                "title": "ejercicio"
-              },
               "mes": {
                 "source": "mes",
-                "title": "mes",
-                "labelfor": "ejercicio"
-              },
-              "titulo_codigo": {
-                "source": "titulo_codigo",
-                "title": "titulo_codigo"
-              },
-              "titulo_descripcion": {
-                "source": "titulo_descripcion",
-                "title": "titulo_descripcion"
-              },
-              "programa_codigo": {
-                "source": "programa_codigo",
-                "title": "programa_codigo"
-              },
-              "programa_descripcion": {
-                "source": "programa_descripcion",
-                "title": "programa_descripcion"
-              },
-              "subprograma_codigo": {
-                "source": "subprograma_codigo",
-                "title": "subprograma_codigo"
-              },
-              "subprograma_descripcion": {
-                "source": "subprograma_descripcion",
-                "title": "subprograma_descripcion"
+                "title": "mes"
               },
               "cog_partida_codigo": {
                 "source": "cog_partida_codigo",
@@ -3856,78 +4821,6 @@
                 "source": "cog_subpartida_descripcion",
                 "title": "cog_subpartida_descripcion"
               },
-              "ce_partida_codigo": {
-                "source": "ce_partida_codigo",
-                "title": "ce_partida_codigo"
-              },
-              "ce_partida_descripcion": {
-                "source": "ce_partida_descripcion",
-                "title": "ce_partida_descripcion"
-              },
-              "ce_grupo_codigo": {
-                "source": "ce_grupo_codigo",
-                "title": "ce_grupo_codigo"
-              },
-              "ce_grupo_descripcion": {
-                "source": "ce_grupo_descripcion",
-                "title": "ce_grupo_descripcion"
-              },
-              "ce_subpartida_codigo": {
-                "source": "ce_subpartida_codigo",
-                "title": "ce_subpartida_codigo"
-              },
-              "ce_subpartida_descripcion": {
-                "source": "ce_subpartida_descripcion",
-                "title": "ce_subpartida_descripcion"
-              },
-              "ce_renglon_codigo": {
-                "source": "ce_renglon_codigo",
-                "title": "ce_renglon_codigo"
-              },
-              "ce_renglon_descripcion": {
-                "source": "ce_renglon_descripcion",
-                "title": "ce_renglon_descripcion"
-              },
-              "cf_clase_codigo": {
-                "source": "cf_clase_codigo",
-                "title": "cf_clase_codigo"
-              },
-              "cf_clase_descripcion": {
-                "source": "cf_clase_descripcion",
-                "title": "cf_clase_descripcion"
-              },
-              "cf_subclase_codigo": {
-                "source": "cf_subclase_codigo",
-                "title": "cf_subclase_codigo"
-              },
-              "cf_subclase_descripcion": {
-                "source": "cf_subclase_descripcion",
-                "title": "cf_subclase_descripcion"
-              },
-              "cf_grupo_codigo": {
-                "source": "cf_grupo_codigo",
-                "title": "cf_grupo_codigo"
-              },
-              "cf_grupo_descripcion": {
-                "source": "cf_grupo_descripcion",
-                "title": "cf_grupo_descripcion"
-              },
-              "cf_subgrupo_codigo": {
-                "source": "cf_subgrupo_codigo",
-                "title": "cf_subgrupo_codigo"
-              },
-              "cf_subgrupo_descripcion": {
-                "source": "cf_subgrupo_descripcion",
-                "title": "cf_subgrupo_descripcion"
-              },
-              "ff_codigo": {
-                "source": "ff_codigo",
-                "title": "ff_codigo"
-              },
-              "ff_descripcion": {
-                "source": "ff_descripcion",
-                "title": "ff_descripcion"
-              },
               "ff_clase1": {
                 "source": "ff_clase1",
                 "title": "ff_clase1"
@@ -3935,58 +4828,225 @@
               "ff_clase2": {
                 "source": "ff_clase2",
                 "title": "ff_clase2"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "titulo_codigo",
+              "programa_codigo",
+              "subprograma_codigo"
+            ],
+            "attributes": {
+              "titulo_codigo": {
+                "source": "titulo_codigo",
+                "title": "titulo_codigo"
               },
-              "pi_monto": {
-                "source": "pi_monto",
-                "title": "pi_monto"
+              "titulo_descripcion": {
+                "source": "titulo_descripcion",
+                "title": "titulo_descripcion",
+                "labelfor": "titulo_codigo"
               },
-              "pp_monto": {
-                "source": "pp_monto",
-                "title": "pp_monto"
+              "programa_codigo": {
+                "source": "programa_codigo",
+                "title": "programa_codigo",
+                "parent": "titulo_codigo"
               },
-              "li_monto": {
-                "source": "li_monto",
-                "title": "li_monto"
+              "programa_descripcion": {
+                "source": "programa_descripcion",
+                "title": "programa_descripcion",
+                "labelfor": "programa_codigo"
               },
-              "so_monto": {
-                "source": "so_monto",
-                "title": "so_monto"
+              "subprograma_codigo": {
+                "source": "subprograma_codigo",
+                "title": "subprograma_codigo",
+                "parent": "programa_codigo"
               },
-              "co_monto": {
-                "source": "co_monto",
-                "title": "co_monto"
+              "subprograma_descripcion": {
+                "source": "subprograma_descripcion",
+                "title": "subprograma_descripcion",
+                "labelfor": "subprograma_codigo"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ce_partida_codigo",
+              "ce_grupo_codigo",
+              "ce_subpartida_codigo",
+              "ce_renglon_codigo"
+            ],
+            "attributes": {
+              "ce_partida_codigo": {
+                "source": "ce_partida_codigo",
+                "title": "ce_partida_codigo"
               },
-              "rm_monto": {
-                "source": "rm_monto",
-                "title": "rm_monto"
+              "ce_partida_descripcion": {
+                "source": "ce_partida_descripcion",
+                "title": "ce_partida_descripcion",
+                "labelfor": "ce_partida_codigo"
               },
-              "de_monto": {
-                "source": "de_monto",
-                "title": "de_monto"
+              "ce_grupo_codigo": {
+                "source": "ce_grupo_codigo",
+                "title": "ce_grupo_codigo",
+                "parent": "ce_partida_codigo"
               },
-              "pa_monto": {
-                "source": "pa_monto",
-                "title": "pa_monto"
+              "ce_grupo_descripcion": {
+                "source": "ce_grupo_descripcion",
+                "title": "ce_grupo_descripcion"
+              },
+              "ce_subpartida_codigo": {
+                "source": "ce_subpartida_codigo",
+                "title": "ce_subpartida_codigo",
+                "parent": "ce_grupo_codigo"
+              },
+              "ce_subpartida_descripcion": {
+                "source": "ce_subpartida_descripcion",
+                "title": "ce_subpartida_descripcion",
+                "labelfor": "ce_subpartida_codigo"
+              },
+              "ce_renglon_codigo": {
+                "source": "ce_renglon_codigo",
+                "title": "ce_renglon_codigo",
+                "parent": "ce_subpartida_codigo"
+              },
+              "ce_renglon_descripcion": {
+                "source": "ce_renglon_descripcion",
+                "title": "ce_renglon_descripcion",
+                "labelfor": "ce_renglon_codigo"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "cf_clase_codigo",
+              "cf_subclase_codigo",
+              "cf_grupo_codigo",
+              "cf_subgrupo_codigo"
+            ],
+            "attributes": {
+              "cf_clase_codigo": {
+                "source": "cf_clase_codigo",
+                "title": "cf_clase_codigo"
+              },
+              "cf_clase_descripcion": {
+                "source": "cf_clase_descripcion",
+                "title": "cf_clase_descripcion",
+                "labelfor": "cf_clase_codigo"
+              },
+              "cf_subclase_codigo": {
+                "source": "cf_subclase_codigo",
+                "title": "cf_subclase_codigo",
+                "parent": "cf_clase_codigo"
+              },
+              "cf_subclase_descripcion": {
+                "source": "cf_subclase_descripcion",
+                "title": "cf_subclase_descripcion",
+                "labelfor": "cf_subclase_codigo"
+              },
+              "cf_grupo_codigo": {
+                "source": "cf_grupo_codigo",
+                "title": "cf_grupo_codigo",
+                "parent": "cf_subclase_codigo"
+              },
+              "cf_grupo_descripcion": {
+                "source": "cf_grupo_descripcion",
+                "title": "cf_grupo_descripcion",
+                "labelfor": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_codigo": {
+                "source": "cf_subgrupo_codigo",
+                "title": "cf_subgrupo_codigo",
+                "parent": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_descripcion": {
+                "source": "cf_subgrupo_descripcion",
+                "title": "cf_subgrupo_descripcion",
+                "labelfor": "cf_subgrupo_codigo"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ff_codigo"
+            ],
+            "attributes": {
+              "ff_codigo": {
+                "source": "ff_codigo",
+                "title": "ff_codigo"
+              },
+              "ff_descripcion": {
+                "source": "ff_descripcion",
+                "title": "ff_descripcion",
+                "labelfor": "ff_codigo"
               }
             }
           }
         },
-        "measures": {}
+        "measures": {
+          "pi_monto": {
+            "source": "pi_monto",
+            "title": "pi_monto"
+          },
+          "pp_monto": {
+            "source": "pp_monto",
+            "title": "pp_monto"
+          },
+          "li_monto": {
+            "source": "li_monto",
+            "title": "li_monto"
+          },
+          "so_monto": {
+            "source": "so_monto",
+            "title": "so_monto"
+          },
+          "co_monto": {
+            "source": "co_monto",
+            "title": "co_monto"
+          },
+          "rm_monto": {
+            "source": "rm_monto",
+            "title": "rm_monto"
+          },
+          "de_monto": {
+            "source": "de_monto",
+            "title": "de_monto"
+          },
+          "pa_monto": {
+            "source": "pa_monto",
+            "title": "pa_monto"
+          }
+        }
       }
     }
   ],
-  "title": "engresso.csv",
-  "description": "test",
-  "govt_level": "Municipal",
+  "title": "Costa Rica Egresos",
+  "description": "Spending information of the central government of Costa Rica.",
   "tags": [
-    "Finance"
+    "National"
   ],
-  "disaggregation": [
-    "State own enterprises"
+  "govt_level": "National",
+  "budget_stage": [
+    "Enacted"
   ],
-  "pub_institutional_name": "me.org",
+  "pub_institutional_name": "Costa Rica",
+  "periodicity": "Yearly",
+  "years_included": [
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "start_date": "2017-01-01",
+  "end_date": "2018-12-31",
   "continent": "South America",
-  "periodicity": "Biannual",
-  "start_date": "2021-11-13",
-  "end_date": "2022-01-12"
+  "createdAt": "2021-10-07T18:24:44Z",
+  "updatedAt": "2021-10-28T20:06:13Z"
 }
